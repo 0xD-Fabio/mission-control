@@ -14,6 +14,7 @@
     "verify": "pnpm check && pnpm build && pnpm test",
     "gen:context": "npx tsx scripts/generate-context.ts",
     "seed:demo": "npx tsx scripts/seed-demo.ts",
+    "reset:data": "npx tsx scripts/reset-data.ts",
     "daemon:start": "npx tsx scripts/daemon/index.ts start",
     "daemon:stop": "npx tsx scripts/daemon/index.ts stop",
     "daemon:status": "npx tsx scripts/daemon/index.ts status"
